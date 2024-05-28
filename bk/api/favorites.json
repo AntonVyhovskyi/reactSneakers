@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Blazer Mid Suede",
+    "price": 100,
+    "urlPhoto": "./img/sneakers/sneakers-1.jpg",
+    "inCart": false
+  },
+  {
+    "id": 2,
+    "name": "Nike Air Max 270",
+    "price": 243,
+    "urlPhoto": "./img/sneakers/sneakers-2.jpg",
+    "inCart": false
+  },
+  {
+    "id": 8,
+    "name": "Nike LeBron XVIII",
+    "price": 180,
+    "urlPhoto": "./img/sneakers/sneakers-8.jpg",
+    "inCart": false
+  }
+]

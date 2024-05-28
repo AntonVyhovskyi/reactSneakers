@@ -1,0 +1,31 @@
+[
+  
+ 
+  
+  {
+    "id": "50fc94d7-0cce-49af-91a1-e236981159de",
+    "items": [
+      {
+        "id": "25d551eb-8e05-4a66-bdc6-2e6e029aeb1e",
+        "name": "Jordan Air Jordan 11",
+        "price": 180,
+        "urlPhoto": "./img/sneakers/sneakers-7.jpg",
+        "inCart": false
+      },
+      {
+        "id": "ab2a6087-c733-44dd-a01d-7562a153f2c7",
+        "name": "Nike Kyrie 7",
+        "price": 120,
+        "urlPhoto": "./img/sneakers/sneakers-6.jpg",
+        "inCart": false
+      },
+      {
+        "id": "d9e79365-80fb-4f87-b79b-43fd11a88d3b",
+        "name": "Under Armour Curry 8",
+        "price": 99,
+        "urlPhoto": "./img/sneakers/sneakers-5.jpg",
+        "inCart": false
+      }
+    ]
+  }
+]
