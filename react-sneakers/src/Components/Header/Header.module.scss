@@ -1,0 +1,113 @@
+//-------------------------------------  HEADER ----------------------------------------------------
+.headerContainer {
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  border-bottom: rgba(0, 0, 0, 0.267) solid 1px;
+  @media (max-width: 600px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.headerLogoImg {
+  height: 70px;
+  width: 70px;
+  img {
+    width: 100%;
+  }
+}
+
+.headerLogoDescription {
+  @media (max-width: 600px) {
+    display: none;
+  }
+  div:nth-child(1){
+    font-weight: 700;
+  }
+}
+
+
+.headerRight {
+  gap: 20px;
+  
+  display: flex;
+  align-items: center;
+ }
+
+ .headerRightButton {
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+  position: relative;
+
+  &:hover {
+    img:nth-child(2) {
+      opacity: 1;
+    }
+  }
+  img{
+    width: 100%;
+    transition: opacity 0.3s;
+  }
+ 
+  
+}
+
+.shopBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.iconHover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.shopDescription {
+  // styles for the 'shopDescription' class
+}
+
+
+
+
+
+.heartHover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+
+
+.userHover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}

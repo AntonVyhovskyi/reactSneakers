@@ -1,0 +1,140 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.331);
+    z-index: 999;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    opacity: 0;
+}
+.cartOpen {
+   pointer-events: auto;
+   opacity: 1;
+   .cart{
+    transform: translateX(0);
+  }
+}
+
+.cartClose {
+  .cart{
+    transform: translateX(100%);
+  }
+}
+.cart {
+   transition: transform 0.2s;
+    height: 100%;
+    width: 450px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+}
+
+.box {
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    height: 100%;
+   
+  }
+  
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      font-size: 26px;
+      font-weight: 700;
+    }
+  }
+  
+  .inCart {
+    padding-top: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    flex-grow: 1;
+    padding-right: 10px;
+    padding-left: 10px;
+    overflow-y: auto;
+    gap: 15px;
+  }
+  
+  .price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 10px;
+    
+    span {
+      font-size: 18px;
+    }
+    span:nth-child(2) {
+        flex-grow: 1;
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.566);
+    }
+  }
+  
+  .button {
+    text-align: center;
+    
+    button {
+      padding: 10px 20px;
+      width: 100%;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+  }
+
+
+
+  /// keine in cart
+  
+
+  .noInCart {
+    flex-grow: 1;
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    .noInCartImg{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      img {
+        max-height: 300px;
+        max-width: 100%;
+      }
+    }
+    .noInCartDescription {
+      font-size: 20px;
+    }
+
+    .noInCartButton {
+      background-color: #4CAF50;
+      transition: background-color 0.3s;
+      padding: 20px;
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+      border-radius: 15px;
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+  }

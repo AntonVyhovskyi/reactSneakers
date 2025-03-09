@@ -1,0 +1,55 @@
+.cardInCart {
+    display: flex;
+    gap: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.147);
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    cursor: pointer;
+    min-height: 100px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    &:hover {
+       transform: scale(1.01);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.48);
+    }
+
+}
+
+.foto {
+    width: 100px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.description {
+ 
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+    div {
+        h3 {
+          font-size: 14px;
+        }
+    }
+
+    b {
+        
+}
+}
+.delete {
+   
+
+    img {
+        border-radius: 8px;
+        transition:transform 0.3s,  box-shadow 0.3s;
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.146);
+        }
+    }
+}
